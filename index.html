@@ -1,59 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web Saya - Trysa</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 <style>
-body {
-  margin:0;
-  background:#ffcfe0;
-  font-family: Arial, sans-serif;
-  text-align:center;
-}
-h5 { color:#6a1b8a; margin-top:20px; font-size:12px; letter-spacing:1px; }
-.foto {
-  width:110px;
-  height:110px;
-  border-radius:50%;
-  border:4px solid white;
-  object-fit:cover;
-}
-h3 { color:#6a1b8a; font-size:14px; margin:10px 0 15px; }
-.menu {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  gap:8px;
-}
-.menu a {
-  background:white;
-  width:250px;
-  padding:10px;
-  text-decoration:none;
-  color:#5a2a7a;
-  font-size:11px;
-  font-weight:bold;
-  border-radius:6px;
-  border-left:5px solid #ff5c8a;
-  border-right:5px solid #ff5c8a;
-}
-.menu a:hover { background:#ff5c8a; color:white; }
+.profile-box{ text-align:center; padding-top:20px; }
+.foto{ width:110px; height:110px; border-radius:50%; object-fit:cover; border:3px solid #2f3e4e; }
+.menu a{ display:block; background:white; margin:8px auto; width:250px; padding:10px; text-decoration:none; color:#2f3e4e; font-weight:bold; font-size:12px; border-radius:5px; border-left:4px solid #5a6e8a; border-right:4px solid #5a6e8a; }
 </style>
 </head>
 <body>
-  <h5>HALO SEMUANYA!</h5>
-  <img src="foto-saya.jpg" class="foto">
-  <h3>Selamat Datang Di Web Saya</h3>
-
-  <div class="menu">
-    <a href="profile.html">MY PROFILE</a>
-    <a href="about-me.html">ABOUT ME</a>
-    <a href="hobbies.html">MY HOBIES</a>
-    <a href="educations.html">EDUCATION</a>
-    <a href="course-schedule.html">CLASS SCHEDULE</a>
-    <a href="table1.html">TABLE 1</a>
-    <a href="table2.html">TABLE 2</a>
-    <a href="table3.html">TABLE 3</a>
-  </div>
+<div class="navbar">
+<a href="profile.html">Profile</a><a href="about-me.html">About Me</a><a href="educations.html">Educations</a><a href="course-schedule.html">Course Schedule</a><a href="hobbies.html">Hobbies</a><a href="form.html">Form</a><a href="table1.html">Table 1</a><a href="table2.html">Table 2</a><a href="table3.html">Table 3</a>
+</div>
+<div class="profile-box">
+<img src="foto-saya.jpg" class="foto">
+<h3 style="border:none;">Selamat Datang Di Web Saya</h3>
+<p style="font-size:12px;">Trysa Lasmaoktori</p>
+<div class="menu">
+<a href="profile.html">MY PROFILE</a>
+<a href="about-me.html">ABOUT ME</a>
+<a href="educations.html">EDUCATION</a>
+</div>
+</div>
 </body>
 </html>
